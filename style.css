@@ -681,7 +681,7 @@ and (max-width: 1200px) {
     }
 
     .main-2 {
-        width: 50%;
+        width: 70%;
     }
 
     .main-2 p, 
@@ -710,7 +710,7 @@ and (max-width: 1200px) {
     }
     .text-container3 h2, 
     .text-container4 h2 {
-        margin: 15% auto 50px;
+        margin: 50px auto 50px;
         text-align: center;
         width: 100%;
     }

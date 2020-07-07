@@ -656,6 +656,12 @@ and (max-width: 1200px) {
 } 
 
 @media (min-width: 1500px) {
+     .nav-side {
+        display: none;
+    }
+}
+
+@media (min-width: 2500px) {
     html {
         font-size: 150%;
     }

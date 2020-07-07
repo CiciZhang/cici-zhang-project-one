@@ -683,6 +683,10 @@ and (max-width: 1200px) {
     .main-2 {
         width: 70%;
     }
+    
+    .text-container2 h2 {
+        font-size: 2.5rem;
+    }
 
     .main-2 p, 
     .text-container3 p, 

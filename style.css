@@ -655,31 +655,60 @@ and (max-width: 1200px) {
     }
 } 
 
-@media (min-width: 2500px) {
+@media (min-width: 1500px) {
     html {
         font-size: 150%;
     }
-    header .text-container {
-        width: 100%;
-    }
+   
     header {
         background-size: contain;
     }
-    header nav {
+    .nav-side {
         display: none;
     }
-    section img,
-    .main-2 img {
-        display: none;
+    header p {
+        float: none;
+        width: 100%;
+    }
+    .text-container {
+        width: 60%;
     }
 
-    .text-container3,
-    .text-container4 {
-       float: none;
-       margin: 5% auto;
-       width: 80%;
+    .main-2 {
+        width: 50%;
+    }
+
+    .main-2 p, 
+    .text-container3 p, 
+    .text-container4 p {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .main-2 h3 {
+        padding: 50px;
+    }
+    .text-container3 p, 
+    .text-container4 p{
+        width: 50%;
+        margin: 50px auto;
+        line-height: 4rem;
+    }
+    .text-container3 h3,
+    .text-container4 h3 {
+        padding: 5%;
+        font-size: 4rem;
+        margin: 50px auto;
+        text-align: center;
+        float: none;
+        width: 50%;
+    }
+    .text-container3 h2, 
+    .text-container4 h2 {
+        margin: 15% auto 50px;
+        text-align: center;
+        width: 100%;
     }
     .three-icons {
-        padding: 5% 0;
+        height: 10%;
     }
 }

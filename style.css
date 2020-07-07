@@ -1,5 +1,7 @@
 /* setup-snippet (how do we indent this?) */
 
+/* INCLUDE NOTES ABOUT WHAT I WANT FEEDBACK ON HERE  */
+
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,
 cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,
 h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,
@@ -544,10 +546,115 @@ input {
     }
 }
 
-@media (min-width: 800px) 
-and (max-width: 1199px) {
-    /* CONTINUE THIS TOMORROW  */
+@media (min-width: 801px) 
+and (max-width: 870px) {
+    i {
+    margin: 0 50px;
+    }
+    section p { 
+        margin: 0 auto;
+        width: 80%;
+    }
+    .text-container3,
+    .text-container4 {
+        margin: 0;
+        width: 50%;
+        position: relative;
+    }
+    section h2 {
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        margin: 5% auto 0;
+    }
+    section h3 {
+        margin: 0 auto 5%;
+        text-align: center;
+        float: none;
+        width: 30%;
+    }
+     .text-container2 h2 {
+        font-size: 2rem;
+        margin: 0;
+    }
+    .text-container2 p {
+        margin: 0;
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
 }
+
+@media (min-width: 871px) 
+and (max-width: 949px) {
+    section p { 
+        margin: 5% auto;
+        width: 80%;
+    }
+    .text-container3,
+    .text-container4 {
+        margin: 0;
+        width: 50%;
+        position: relative;
+    }
+    section h2 {
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        margin: 5% auto 0;
+    }
+    section h3 {
+        margin: 5% auto 5%;
+        text-align: center;
+        float: none;
+        width: 30%;
+    }
+    .text-container2 h2 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    .text-container2 p {
+        margin: 0;
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+    }
+}
+
+
+@media (min-width: 950px) 
+and (max-width: 1200px) {
+    section h2 {
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        margin: 10% auto 0;
+    }
+    section p { 
+        margin: 5% auto;
+        width: 80%;
+    }
+    .text-container3,
+    .text-container4 {
+        margin: 0;
+        width: 50%;
+        position: relative;
+    }
+    
+    section h3 {
+        margin: 5% auto 5%;
+        text-align: center;
+        float: none;
+        width: 30%;
+    }
+    .text-container2 h2 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+     .text-container2 p {
+        margin: 0;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+    }
+} 
 
 @media (min-width: 2500px) {
     html {
